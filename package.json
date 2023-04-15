@@ -1,0 +1,23 @@
+{
+  "name": "bluesky-food-safety-bot",
+  "version": "1.0.0",
+  "description": "A Bluesky bot that posts food safety notices from the UK Food Standards Agency to your Bluesky feed.",
+  "main": "bluesky_food_safety_bot.ts",
+  "scripts": {
+    "start": "ts-node bluesky_food_safety_bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bluesky-food-safety-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@atproto/api": "^0.2.7",
+    "axios": "^0.25.0",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
+
